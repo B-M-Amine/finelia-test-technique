@@ -14,6 +14,8 @@ $conn->query("DELETE FROM etudiant WHERE id = ".$_POST['etudiant']);
 $conn->close();
 
 $msgetudiant = "<p class='message' style='margin-top: 7px; text-align: center; font-size: 1.1em; font-weight: bold; color: #006400;' >L'étudiant a bien été supprimé</p>";
+header("Refresh:0");
+
 
 }
 
@@ -26,8 +28,11 @@ if(isset($_POST['submit-btn-matiere'])){
     $conn->close();
 
     $msgmatiere = "<p class='message' style='margin-top: 7px; text-align: center; font-size: 1.1em; font-weight: bold; color: #006400;' >La matière a bien été supprimée</p>";
+    header("Refresh:0");
+
 
 }
+
 
 ?>
 
