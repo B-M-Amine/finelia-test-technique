@@ -1,0 +1,144 @@
+* { margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+body{
+    background-color: #374254;
+    font-family: 'Raleway';
+}
+
+.main-cont{
+    background-color: #dcebf7;
+    width: 80%;
+    min-height: 100%;
+    margin: auto;
+}
+
+.inner-cont{
+    width: 650px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.inner-cont-small{
+    width: 250px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.menu-item{
+    text-align: center;
+    margin-right: 35px;
+}
+
+.menu-item:hover{
+    font-size : 1.03em;
+}
+
+.active{
+    color : gold;
+
+}
+
+
+a { color: inherit;
+text-decoration: none;
+}
+
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    height: 50px;
+    background-color: #4682b4;
+    border-bottom: black 1px solid;
+    font-size: 1.05em;
+
+}
+td{
+    padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    background-color: #dcebf7;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+tr{
+    height: 40px;
+}
+
+th{
+    background-color: #4682b4;
+    font-size: 1.15em;
+}
+tr > * {
+    padding: 10px;
+}
+
+.note{
+    width: 50px;
+}
+
+.coef{
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=submit]{
+    background-color: #4682b4;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border : 2px black solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.fas{
+    float: right;
+}
+
+select{
+    width: 275px;
+}
