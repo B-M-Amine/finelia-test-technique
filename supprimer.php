@@ -14,8 +14,7 @@ $conn->query("DELETE FROM etudiant WHERE id = ".$_POST['etudiant']);
 $conn->close();
 
 $msgetudiant = "<p class='message' style='margin-top: 7px; text-align: center; font-size: 1.1em; font-weight: bold; color: #006400;' >L'étudiant a bien été supprimé</p>";
-header("Refresh:0");
-
+    header("Refresh:0");
 
 }
 
@@ -30,9 +29,7 @@ if(isset($_POST['submit-btn-matiere'])){
     $msgmatiere = "<p class='message' style='margin-top: 7px; text-align: center; font-size: 1.1em; font-weight: bold; color: #006400;' >La matière a bien été supprimée</p>";
     header("Refresh:0");
 
-
 }
-
 
 ?>
 
@@ -43,7 +40,7 @@ if(isset($_POST['submit-btn-matiere'])){
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Supprimer étudiant/matière</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style.css">
     <script
