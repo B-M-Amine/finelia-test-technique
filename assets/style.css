@@ -142,3 +142,31 @@ input[type=submit]{
 select{
     width: 275px;
 }
+
+@media all and (max-width: 900px){
+ table {
+     width: 60%;
+ }
+    .inner-cont{
+        width: 100%;
+    }
+
+    .select-student{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .select-student > * {
+        width: 100%;
+    }
+
+    .menu{
+        margin-left: 20px;
+    }
+
+    .menu-item{
+        text-align: center;
+        margin-right: 25px;
+        font-size: 0.9em;
+    }
+}
